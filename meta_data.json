@@ -5,6 +5,7 @@
     "description": "The plugin GA4 + Tag Manager works great, but it lacks a generic element data layer module.\n\nThis is a very small minimalist plugin that ONLY adds the action \"Send data to GTM\", which accepts any kind of data, not just events.",
     "image": "//s3.amazonaws.com/appforest_uf/f1664505142873x579095686568074500/gtm_logo-300x300-1-300x300.png",
     "license": "open_source",
+    "link": "",
     "name": "GTM Generic Data Layer",
-    "plugin_instructions": "This will NOT setup GTM. It must be used alongside with other plugins, or manual GTM setup."
+    "plugin_instructions": "This will NOT setup GTM. It must be used alongside with other plugins, or manual GTM setup.\n\n1. Install and setup GA$ + Tag Manager plugin (or similar)\n2. Install this plugin\n3. In any workflow, add the action \"Send data to GTM\"\n4. Add a list of variables pairs (variable_name = variable_value)\n5. Configure GTM to receive the data (key)"
 }

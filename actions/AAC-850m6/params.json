@@ -1,10 +1,10 @@
 {
     "category": "plugins",
-    "display": "Send data to GTM",
+    "display": "Send Data to GTM",
     "fields": {
         "AAE": {
-            "caption": "list of keys and values",
-            "doc": "For example: event = login ; user_id = user'sID",
+            "caption": "Name = Value",
+            "doc": "For example: event = login ; user_id = user's unique ID",
             "editor": "key_value_list",
             "name": "data",
             "rank": 1,

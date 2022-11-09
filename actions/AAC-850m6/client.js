@@ -9,8 +9,13 @@ function(properties, context) {
         var key = properties.data[i].key;
         var value = properties.data[i].value;
         // sanitize the value and format it as a string
-        data[key] = JSON.stringify(value);
+        if (typeof value === 'object') {
+            value = JSON.stringify(value);
+        } else{
+            value = value.toString();
+        }
+        data[key] = value;
     }
     // push the data to the dataLayer
     dataLayer.push(data);
-}	
+}
