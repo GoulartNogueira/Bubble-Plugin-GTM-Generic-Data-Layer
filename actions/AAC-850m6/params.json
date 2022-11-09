@@ -1,0 +1,23 @@
+{
+    "category": "plugins",
+    "display": "Send data to GTM",
+    "fields": {
+        "AAE": {
+            "caption": "list of keys and values",
+            "doc": "For example: event = login ; user_id = user'sID",
+            "editor": "key_value_list",
+            "name": "data",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "event",
+            "doc": "Custom events are the most usual tag, this field is just meant to facilitate sending events.",
+            "editor": "StaticText",
+            "name": "event",
+            "optional": true,
+            "rank": 0
+        }
+    },
+    "type": "client_side"
+}
